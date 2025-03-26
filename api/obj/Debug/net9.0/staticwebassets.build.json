@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "xrq0RmjBA7LhNa/cVU+Bn/7N0fc8eAgluHAnuCTC2W0=",
+  "Source": "api",
+  "BasePath": "_content/api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "api\\wwwroot",
+      "Source": "api",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\0n2z83xdn7-4pzeu5qyye.gz",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/api",
+      "RelativePath": "css/style#[.{fingerprint=4pzeu5qyye}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kw9sjv0n9a",
+      "Integrity": "3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\5hz7yazoko-y0n8zbgmuq.gz",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/api",
+      "RelativePath": "index#[.{fingerprint=y0n8zbgmuq}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "l6tv0kqqr6",
+      "Integrity": "g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\yavcfiqsy2-5ipweew5fc.gz",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/api",
+      "RelativePath": "js/script#[.{fingerprint=5ipweew5fc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\js\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\css\\style.css",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4pzeu5qyye",
+      "Integrity": "yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\index.html",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0n8zbgmuq",
+      "Integrity": "bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\js\\script.js",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.4pzeu5qyye.css",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\0n2z83xdn7-4pzeu5qyye.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007633587786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:04:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4pzeu5qyye"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.4pzeu5qyye.css",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:04:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4pzeu5qyye"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.4pzeu5qyye.css.gz",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\0n2z83xdn7-4pzeu5qyye.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:04:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4pzeu5qyye"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\0n2z83xdn7-4pzeu5qyye.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007633587786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:04:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:04:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yCF5EqiqAqnWfPOoUn9TC2o3r/Ba1CmnKNlanNPg6uI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\0n2z83xdn7-4pzeu5qyye.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:04:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3E9CVHD8Lg7IWzv1VsPdXSfJZ8cjtJ7mHTFubWXFkmQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\5hz7yazoko-y0n8zbgmuq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000468384075"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8614"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\5hz7yazoko-y0n8zbgmuq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw="
+        }
+      ]
+    },
+    {
+      "Route": "index.y0n8zbgmuq.html",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\5hz7yazoko-y0n8zbgmuq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000468384075"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0n8zbgmuq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE="
+        }
+      ]
+    },
+    {
+      "Route": "index.y0n8zbgmuq.html",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8614"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0n8zbgmuq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bkojCylIW6yQvqhfMhUXgdQalxZ8ho0RzD8nCd/kjcE="
+        }
+      ]
+    },
+    {
+      "Route": "index.y0n8zbgmuq.html.gz",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\5hz7yazoko-y0n8zbgmuq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0n8zbgmuq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2pnFE790VyG5U3Qi4ZCD3udKSlIzD1ee6ukOqXmDuw="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.5ipweew5fc.js",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\yavcfiqsy2-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.5ipweew5fc.js",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.5ipweew5fc.js.gz",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\yavcfiqsy2-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\yavcfiqsy2-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "c:\\Users\\kitti\\OneDrive\\เดสก์ท็อป\\ProgramingTest\\api\\obj\\Debug\\net9.0\\compressed\\yavcfiqsy2-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
+}

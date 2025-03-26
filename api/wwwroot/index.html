@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Prime Check</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+        <h2 class="text-2xl font-bold text-center mb-6">Register Prime Check</h2>
+
+        <!-- Form -->
+        <form id="register-form" class="space-y-4">
+            <!-- Name Input -->
+            <div>
+                <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" required>
+            </div>
+            
+            <!-- Email Input -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" required>
+            </div>
+
+            <!-- Phone Number Input -->
+            <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                <input type="text" id="phone" name="phone" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" required>
+            </div>
+
+            <!-- Number Input (for prime check) -->
+            <div>
+                <label for="number" class="block text-sm font-medium text-gray-700">Enter a Number for Prime Check</label>
+                <input type="number" id="number" name="number" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" required>
+            </div>
+            
+            <!-- Submit Button -->
+            <div class="mb-4">
+                <button type="submit" class="w-full py-2 px-4 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Register</button>
+            </div>
+        </form>
+
+        <!-- List of Previous Registrations and Clear Button will only show if there are registrations in localStorage -->
+        <div id="previous-registrations-container" style="display: none;">
+            <h3 class="text-xl font-semibold mt-6">Previous Registrations</h3>
+            <ul id="registration-list" class="space-y-4 mt-4"></ul>
+
+            <button id="clear-storage" class="mt-6 w-full py-2 px-4 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500">Clear All Registrations</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Function to update the list of saved registrations
+            function updateRegistrationList() {
+                const registrationList = $('#registration-list');
+                registrationList.empty(); // Clear the current list
+
+                // Get all saved registrations from localStorage
+                let registrations = JSON.parse(localStorage.getItem('registrations')) || [];
+
+                // If there are no registrations, hide the container
+                if (registrations.length === 0) {
+                    $('#previous-registrations-container').hide();
+                } else {
+                    $('#previous-registrations-container').show();
+                }
+
+                // Display all saved registrations
+                registrations.forEach(function(registration, index) {
+                    registrationList.append(`
+                        <li class="p-4 border rounded-lg shadow-md">
+                            <strong>Full Name:</strong> ${registration.name} <br>
+                            <strong>Email:</strong> ${registration.email} <br>
+                            <strong>Phone:</strong> ${registration.phone} <br>
+                            <strong>Number:</strong> ${registration.number} <br>
+                            <strong>Prime Check:</strong> ${registration.isPrime ? 'Prime' : 'Not Prime'} <br>
+                        </li>
+                    `);
+                });
+            }
+
+            // Update the registration list when the page loads
+            updateRegistrationList();
+
+            // Handle form submission
+            $('#register-form').submit(function(e) {
+                e.preventDefault(); // Prevent form submission
+
+                const name = $('#name').val();
+                const email = $('#email').val();
+                const phone = $('#phone').val();
+                const number = $('#number').val();
+
+                // Validate if the inputs are not empty
+                if (!name || !email || !phone || !number) {
+                    Swal.fire({
+                        title: 'Please fill all fields!',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                    return;
+                }
+
+                // Send data to server for Prime check using AJAX
+                $.ajax({
+                    url: `/api/isprime/${number}`,
+                    method: 'GET',
+                    success: function(result) {
+                        // Prepare the registration data including prime check result
+                        const newRegistration = {
+                            name: name,
+                            email: email,
+                            phone: phone,
+                            number: number,
+                            isPrime: result.isPrime // Assuming API returns `isPrime`
+                        };
+
+                        // Get the current list of registrations from localStorage
+                        let registrations = JSON.parse(localStorage.getItem('registrations')) || [];
+
+                        // Add the new registration to the list
+                        registrations.push(newRegistration);
+
+                        // Save the updated list back to localStorage
+                        localStorage.setItem('registrations', JSON.stringify(registrations));
+
+                        // Show SweetAlert with success message
+                        Swal.fire({
+                            title: `Registration Success for ${name}`,
+                            text: `Prime Check for ${number}: ${result.isPrime ? 'Prime' : 'Not Prime'}`,
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+
+                        // Clear the form
+                        $('#register-form')[0].reset();
+
+                        // Update the registration list
+                        updateRegistrationList();
+                    },
+                    error: function() {
+                        Swal.fire({
+                            title: 'Error',
+                            text: 'An error occurred while processing your request.',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                });
+            });
+
+            // Clear all registrations in localStorage
+            $('#clear-storage').click(function() {
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: 'This will clear all your saved registrations!',
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonText: 'Yes, Clear All',
+                    cancelButtonText: 'Cancel'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        localStorage.removeItem('registrations'); // Clear localStorage
+                        updateRegistrationList(); // Update the list to reflect the changes
+                        Swal.fire({
+                            title: 'Cleared!',
+                            text: 'All registrations have been cleared.',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
